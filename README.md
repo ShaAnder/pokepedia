@@ -1,4 +1,4 @@
-<h1 align="center">React Bill Split</h1>
+<h1 align="center">Pokepedia</h1>
 <p align="center">
     <img src="public/favicon.ico" alt="Logo" width="15%" height="auto">
  </p>
@@ -14,9 +14,7 @@
   <a href="https://github.com/ShaAnder/pokepedia/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg" />
   </a>
-  <a href="https://github.com/ShaAnder/pokepedia/blob/main/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
+
 
 </p>
 
@@ -24,6 +22,8 @@
 This is a small react based project built to emulate the pokemon pokedex website as shown here, in it's current stages it's just
 a small demo but will eventually expand to include all functionality in a mock setting. I chose this as both a fan of pokemon and 
 that i find the website design fun and interesting and something id love to build utilizing what I have learnt so far in react
+
+THIS IS 100% a student project and as such is soley designed with learning in mind.
 </p>
 
 ## APP Features
