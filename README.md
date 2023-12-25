@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+<h1 align="center">React Bill Split</h1>
+<p align="center">
+    <img src="public/favicon.ico" alt="Logo" width="15%" height="auto">
+ </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="" target="_blank">
+    <img alt="Demo" src="https://img.shields.io/badge/demo-offline-red.svg" />
+  </a>
+  <a href="https://github.com/ShaAnder/pokepedia#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/ShaAnder/pokepedia/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg" />
+  </a>
+  <a href="https://github.com/ShaAnder/pokepedia/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
 
-## Available Scripts
+</p>
 
-In the project directory, you can run:
+<p align="left">
+This is a small react based project built to emulate the pokemon pokedex website as shown here, in it's current stages it's just
+a small demo but will eventually expand to include all functionality in a mock setting. I chose this as both a fan of pokemon and 
+that i find the website design fun and interesting and something id love to build utilizing what I have learnt so far in react
+</p>
 
-### `npm start`
+## APP Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This website is built around the idea of basic web design with react, utilizing inheritance and component based architecture
+at the moment it doesn't really have a set in stone architecture but as the project nears completion i will be implemnting mvc
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Current features:
 
-### `npm test`
+- showcases a list of test pokemon from an object in the file, soon to be a database
+- basic searching (will be updated in the next push)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Languages / Modules / APIs Used
 
-### `npm run build`
+- JavaScript
+- CSS3
+- HTML5
+- React
+- NodeJS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img alt="Bill Split React" src="public\image.png" width="50%" />
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation Guide
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+First clone this repo
 
-### `npm run eject`
+```sh
+git clone https://github.com/ShaAnder/pokepedia.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+NPM install to get the dependancies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Use npm start to start the local server / test the app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```sh
+npm start
+```
 
-## Learn More
+## Summary
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This app was a reinforcement project, a way to showcase and reinforce what has been learnt so far in the course
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pretty much we have covered a lot of topic such as:
 
-### Code Splitting
+- List based components
+- State and multiple state management
+- global vs local state
+- state uplifting
+- derived state
+- Form components
+- How to create and delete components inside components
+- thinking in react
+- child props
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+and more
 
-### Analyzing the Bundle Size
+## TO DO
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Work is already underway to create a user backend and scale this app up!
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ShaAnder [LinkedIn](https://www.linkedin.com/in/shaun-anderton-551670a9/) | [Twitter](https://twitter.com/ShaAnder10) | [Github](https://github.com/ShaAnder)
 
-### Advanced Configuration
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This app was created as part of [Jonas Smechmann](https://twitter.com/jonasschmedtman)'s Udemy course [The Ultimate React course 2023](https://www.udemy.com/course/the-ultimate-react-course).
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
+This project is [MIT](https://github.com/ShaAnder/react-bill-split/blob/main/LICENSE) licensed.
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
