@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app {
+  display: block;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  line-height: 1;
+  margin-left: 20rem;
+  margin-right: 20rem;
+
+  background: #424242
+    url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+  font-family: "Flexo-Regular", arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  height: 100%;
+}
+
+div.pokedex-container {
+  background: #ffffff
+    url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+  font-family: "Flexo-Regular", arial, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  height: 100%;
+}
+
+div.pokedex-results {
+  background: #ffffff;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style-type: disc;
+  margin: 0px;
+  padding: 50px;
+}
+
+div.results {
+  display: inline-block;
+}
+
+li.pokemon-card {
+  width: 13rem;
+  height: 20rem;
+  margin: 0.2rem;
+}
+
+img.pokemon-img {
+  width: 12rem;
+  height: 12rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
