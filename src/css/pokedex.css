@@ -1,0 +1,100 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #212121;
+}
+
+h1 {
+  font-size: 175%;
+  text-transform: none;
+  margin: 0 0 1em 0;
+}
+
+h2 {
+  font-size: 137.5%;
+  line-height: 125%;
+  text-transform: none;
+  font-family: "Flexo-Medium", arial, sans-serif;
+  margin: 0.75em 0;
+}
+
+body h2 h3 h4 h5 h6 {
+  font-family: "Roboto", arial, sans-serif;
+  font-weight: 500;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 125%;
+  line-height: 125%;
+  text-transform: none;
+  margin: 0.5em 0;
+  font-family: "Flexo-Medium", arial, sans-serif;
+}
+
+p {
+  color: #919191;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 125%;
+  margin: 0.5em 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: #ccc;
+  border-radius: 5px;
+  border: none;
+  clear: both;
+  color: #212121;
+  cursor: pointer;
+  font-size: 105%;
+
+  line-height: 125%;
+  margin: 1.5625%;
+  padding: 0.75em 1.25em 0.675em;
+  vertical-align: middle;
+  text-align: center;
+  text-transform: none;
+  font-family: "Flexo-Demi", arial, sans-serif;
+}
+
+.custom-select-wrapper {
+  box-sizing: border-box;
+  font-family: "Flexo-Medium", arial, sans-serif;
+  background-color: #313131;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: float;
+  font-size: 120%;
+  font-family: "Roboto", arial, sans-serif;
+  line-height: 1.5;
+  padding: 0.5em 0.2em 0.7em;
+  text-indent: 0.5em;
+  width: 20%;
+}
+
+.button-lightblue {
+  background-color: #30a7d7;
+  color: #fff;
+}
+.button-lightblue:hover,
+.button-lightblue.active {
+  background-color: #1b82b1;
+}
+
+.button-black,
+.custom-select-wrapper .custom-select-menu label.button-black:after {
+  background-color: #313131;
+  color: #fff;
+}
