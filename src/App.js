@@ -8,14 +8,16 @@ import React from "react";
 import { shuffle } from "./components/helpers/shuffle";
 
 function App() {
+  const [pokemonList, setPokemonList] = useState(testPokemon);
+
   return (
     <div className="App">
-      <Pokedex testPokemon={testPokemon} />
+      <Pokedex pokemonList={pokemonList} setPokemonList={setPokemonList} />
     </div>
   );
 }
 
-function Pokedex({ testPokemon }) {
+function Pokedex({ pokemonList, setPokemonList }) {
   // create our state for sorting the pokemon
   const [sortPokemon, setSortPokemon] = useState("input");
   const [showMorePokemon, setShowMorePokemon] = useState(false);
@@ -24,37 +26,35 @@ function Pokedex({ testPokemon }) {
   let sortedPokemon;
 
   const handleSurpriseMeButton = (e) => {
-    // // shuffle test pokemon
-    // const sortedPokemon = React.useMemo(() => {
-    //   const poke = testPokemon;
-    //   return shuffle(poke);
-    // }, []);
+    // shuffle test pokemon
+    const poke = [...shuffle(pokemonList)];
+    setPokemonList(poke);
   };
 
   // sort by input
-  if (sortPokemon === "input") sortedPokemon = testPokemon;
+  if (sortPokemon === "input") sortedPokemon = pokemonList;
 
   // sort by Entry low to high
   if (sortPokemon === "numA") {
-    sortedPokemon = testPokemon.slice().sort((a, b) => a.entry - b.entry);
+    sortedPokemon = pokemonList.slice().sort((a, b) => a.entry - b.entry);
     console.log(sortedPokemon);
   }
 
   // sort by Entry low to high
   if (sortPokemon === "numD") {
-    sortedPokemon = testPokemon.slice().sort((a, b) => b.entry - a.entry);
+    sortedPokemon = pokemonList.slice().sort((a, b) => b.entry - a.entry);
   }
 
   // sort by a-z
   if (sortPokemon === "nameA")
-    sortedPokemon = testPokemon
+    sortedPokemon = pokemonList
       .slice()
       .sort((a, b) => a.name.localeCompare(b.name));
 
   // sort by z-a
   if (sortPokemon === "nameD") {
-    console.log(testPokemon);
-    sortedPokemon = testPokemon
+    console.log(pokemonList);
+    sortedPokemon = pokemonList
       .slice()
       .sort((a, b) => b.name.localeCompare(a.name));
   }
