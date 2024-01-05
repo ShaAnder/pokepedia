@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="pokepedia-shaander.netlify.app" target="_blank">
+  <a href="https://pokepedia-shaander.netlify.app" target="_blank">
     <img alt="Demo" src="https://img.shields.io/badge/demo-online-green.svg" />
   </a>
   <a href="https://github.com/ShaAnder/pokepedia#readme" target="_blank">

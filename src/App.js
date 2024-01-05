@@ -10,11 +10,11 @@ import { Pokedex } from "./components/Pokedex";
 // App
 function App() {
   // our pokemonList state, contains all the pokemon for our app
-  const [pokemonList, setPokemonList] = useState(testPokemon);
+  const [pokeBall, setPokeBall] = useState(testPokemon);
 
   return (
     <div className="App">
-      <Pokedex pokemonList={pokemonList} setPokemonList={setPokemonList} />
+      <Pokedex pokemonList={pokeBall} setPokemonList={setPokeBall} />
     </div>
   );
 }
