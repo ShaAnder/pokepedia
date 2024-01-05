@@ -5,8 +5,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="" target="_blank">
-    <img alt="Demo" src="https://img.shields.io/badge/demo-offline-red.svg" />
+  <a href="pokepedia-shaander.netlify.app" target="_blank">
+    <img alt="Demo" src="https://img.shields.io/badge/demo-online-green.svg" />
   </a>
   <a href="https://github.com/ShaAnder/pokepedia#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -14,7 +14,6 @@
   <a href="https://github.com/ShaAnder/pokepedia/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg" />
   </a>
-
 
 </p>
 
@@ -24,6 +23,7 @@ a small demo but will eventually expand to include all functionality in a mock s
 that i find the website design fun and interesting and something id love to build utilizing what I have learnt so far in react
 
 THIS IS 100% a student project and as such is soley designed with learning in mind.
+
 </p>
 
 ## APP Features
@@ -35,6 +35,8 @@ Current features:
 
 - showcases a list of test pokemon from an object in the file, soon to be a database
 - basic searching (will be updated in the next push)
+- show more feature to see more pokemon
+- surprise me (randomizes the pokemon list)
 
 ## Languages / Modules / APIs Used
 
