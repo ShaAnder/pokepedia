@@ -2,7 +2,7 @@
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="120%">
     
-<h1  align="center"></h1>
+<h1  align="center">Pokepedia</h1>
 
 <p  align="center">
 <img src="https://github.com/ShaAnder/pokepedia/assets/129494996/ce3a5407-3e1a-443b-a64b-246dd3b795e0" alt="project image" height="200px">
